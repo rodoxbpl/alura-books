@@ -48,7 +48,11 @@
 
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1728px) {
+
+    .footer {
+        margin-bottom: 2em;
+    }
 
     .footer__texto {
         margin: 2em 1em 2em 8em;

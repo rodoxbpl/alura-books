@@ -220,6 +220,10 @@ body {
         width: 70%;
     }
 
+    .secao__carrossel--swiper-card {
+        margin: 5vw 5vw;
+    }
+
     .swiper-slide img {
         width: 100%;
     }
@@ -270,7 +274,7 @@ body {
     .secao__carrossel__card {
         width: 50%;
         padding: 1.5em 2em;
-        margin: 2em 15em;
+        margin: 2em 20vw;
     }
 
     .descricao {
@@ -336,7 +340,7 @@ body {
 
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1728px) {
 
     .container__titulo__secao {
         font-size: 2rem;
@@ -347,13 +351,17 @@ body {
         justify-content: center;
         align-items: center;
         gap: 3em;
-        padding: 5em 8em;
+        margin: 5vw 10vw;
+    }
+
+    .swiper {
+        width: 50%;
     }
 
     .secao__carrossel__card {
         margin: 0;
         padding: 2em 2em;
-        width: 80%;
+        width: 50%;
     }
 
     .descricao-titulo {
@@ -365,7 +373,7 @@ body {
     }
 
     .secao__topico {
-        padding: 3em 2em;
+        padding: 3em 10em;
         width: auto;
     }
 

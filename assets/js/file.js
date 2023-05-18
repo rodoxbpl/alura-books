@@ -5,9 +5,9 @@ botaoMenu.addEventListener('click', () => {
     botaoMenu.classList.toggle('cabecalho__menu-hamburguer-ativo');
 })
 
-botaoMenu1024.addEventListener('click', () => {
-    botaoMenu1024.classList.toggle('cabecalho__menu-ativo');
-})
+// botaoMenu1024.addEventListener('click', () => {
+//     botaoMenu1024.classList.toggle('cabecalho__menu-ativo');
+// })
 
 const swiper = new Swiper('.swiper', {
     spaceBetween: 10,

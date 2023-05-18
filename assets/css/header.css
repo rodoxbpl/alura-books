@@ -13,6 +13,10 @@
     padding: 0px 10px 2px 0px;
 }
 
+.container a h3 {
+    display: none;
+}
+
 .cabecalho__menu-hamburguer {
     background-image: url(/assets/img/Menu.svg);
     background-repeat: no-repeat;
@@ -106,19 +110,25 @@
         width: auto;
     }
 
+    .container__botao1024:checked ~.opcoes__rotulo>.opcoes__item {
+        background: var(--azul-degrade);
+        color: var(--branco);
+    }
+
+    .lista-menu {
+        padding: 0;
+    }
+    
     .lista-menu__item {
         margin: 1em 0;
     }
 
-    .lista-menu__link:hover {
-        color: var(--branco);
-        background: transparent; 
-        -webkit-text-fill-color: var(--branco);
-    }
-
     .lista-menu__item:hover {
         background: var(--azul-degrade);
-        color: var(--branco);
+    }
+
+    .lista-menu__item:hover>.lista-menu__link {
+        -webkit-text-fill-color: var(--branco);
     }
 
     .container__titulo, .container__titulo--negrito {
@@ -140,22 +150,31 @@
     }
 
     .opcoes__item {
-        padding: 0 1em;
+        padding: 2em 1em;
         text-transform: uppercase;
         color: var(--preto);
     }
 
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1728px) {
+
+    .opcoes {
+        margin-right: auto;
+    }
 
     .container {
         gap: 0.5em;
+        padding: 0.5em 2em;
     }
     
     .container a {
         display: flex;
         align-items: center;
+    }
+
+    .container a h3 {
+        display: block;
     }
 
     .secao__banner__pergunta {
