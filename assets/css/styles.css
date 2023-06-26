@@ -1,6 +1,10 @@
 
 @import url(header.css);
 @import url(footer.css);
+@import url(banner.css);
+@import url(formulario.css);
+@import url(cadastro.css);
+
 
 :root {
     --fonte-padrao: 'Poppins', sans-serif;
