@@ -77,18 +77,27 @@
 
 @media (max-width: 425px) {
     
+    .principal {
+        width: 70vw;
+    }
+
     .formulario__dupla {
         justify-content: center;
+        flex-grow: 1;
     }
 
     .formulario__botao {
         float: none;
-        margin-left: -30%;
+        width: 90%;
+        padding: 1em 0;
     }
 
     .principal__titulo, .principal__subtitulo {
         text-align: center;
     }
-        
+
+    .campo__escrita {
+        padding: 1em 0;
+    }
 }
 
