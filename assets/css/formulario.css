@@ -78,14 +78,12 @@
 @media (max-width: 425px) {
     
     .principal {
-        width: 70vw;
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
-
-    .formulario__dupla {
-        justify-content: center;
-        flex-grow: 1;
-    }
-
+    
     .formulario__botao {
         float: none;
         width: 90%;
