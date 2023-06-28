@@ -22,6 +22,9 @@ async function buscaEndereco(cep) {
 
     atualizaCampoEndereco(consultaCepConvertida);
   } catch(erro) {
+    var limpaCampo = "";
+    atualizaCampoEndereco(limpaCampo);
+    
     formErro.classList.add('formulario__erro');
     mensagemErro.innerHTML = '<p class="erro__texto">CEP inválido. Tente novamente!</p>'
     imgErro.classList.add('erro__imagem');
