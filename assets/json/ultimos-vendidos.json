@@ -1,0 +1,47 @@
+[
+    {
+        "titulo": "Vue.js: Construa aplicações incríveis",
+        "preco": 29.9,
+        "autor": "Caio Incau",
+        "imagem": "https://caelum-online-public.s3.amazonaws.com/2628-js/Vue.js.png",
+        "alt": "Capa do livro de Front-end com Vue.js",
+        "quantidade": 50,
+        "categoria": "front-end"
+    },
+    {
+        "titulo": "Cangaceiro JavaScript: Uma aventura no sertão da programação",
+        "preco": 19.9,
+        "autor": "Flávio Almeida",
+        "imagem": "https://caelum-online-public.s3.amazonaws.com/2628-js/JavaScript.png",
+        "alt": "Capa do livro Cangaceiro JavaScript",
+        "quantidade": 42,
+        "categoria": "front-end"
+    },
+    {
+        "titulo": "Sass: Aprendendo pré-processadores CSS",
+        "preco": 79.9,
+        "autor": "Natan Souza",
+        "imagem": "https://caelum-online-public.s3.amazonaws.com/2628-js/Sass.png",
+        "alt": "Capa do livro de Front-end com Vue.js",
+        "quantidade": 11,
+        "categoria": "front-end"
+    },
+    {
+        "titulo": "Spring Boot: Acelere o desenvolvimento de microsserviços",
+        "preco": 29.9,
+        "autor": "Fernando Boaglio",
+        "imagem": "https://caelum-online-public.s3.amazonaws.com/2628-js/java.png",
+        "alt": "Capa do livro de Spring Boot",
+        "quantidade": 28,
+        "categoria": "back-end"
+    },
+    {
+        "titulo": "Pandas Python: Data Wrangling para Ciência de Dados",
+        "preco": 229.9,
+        "autor": "Eduardo Corrêa",
+        "imagem": "https://caelum-online-public.s3.amazonaws.com/2628-js/pandas.png",
+        "alt": "Capa do livro de Pandas Python",
+        "quantidade": 42,
+        "categoria": "dados"
+    }
+]

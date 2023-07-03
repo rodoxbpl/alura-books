@@ -1,0 +1,47 @@
+[
+    {
+        "titulo": "Vue.js: Construa aplicações incríveis",
+        "preco": 29.9,
+        "autor": "Caio Incau",
+        "imagem": "https://caelum-online-public.s3.amazonaws.com/2628-js/Vue.js.png",
+        "alt": "Capa do livro de Front-end com Vue.js",
+        "quantidade": 50,
+        "categoria": "front-end"
+    },
+    {
+        "titulo": "PostgreSQL: Banco de dados para aplicações web modernas",
+        "preco": 89.9,
+        "autor": "Vinícius Carvalho",
+        "imagem": "https://caelum-online-public.s3.amazonaws.com/2628-js/postgres.png",
+        "alt": "Capa do livro de PostgreSQL",
+        "quantidade": 8,
+        "categoria": "dados"
+    },
+    {
+        "titulo": "Sass: Aprendendo pré-processadores CSS",
+        "preco": 79.9,
+        "autor": "Natan Souza",
+        "imagem": "https://caelum-online-public.s3.amazonaws.com/2628-js/Sass.png",
+        "alt": "Capa do livro de Front-end com Vue.js",
+        "quantidade": 11,
+        "categoria": "front-end"
+    },
+    {
+        "titulo": "Cangaceiro JavaScript: Uma aventura no sertão da programação",
+        "preco": 19.9,
+        "autor": "Flávio Almeida",
+        "imagem": "https://caelum-online-public.s3.amazonaws.com/2628-js/JavaScript.png",
+        "alt": "Capa do livro Cangaceiro JavaScript",
+        "quantidade": 42,
+        "categoria": "front-end"
+    },
+    {
+        "titulo": "Django de A a Z: Crie aplicações web rápidas, seguras e escaláveis com Python",
+        "preco": 94.9,
+        "autor": "Tiago Silva",
+        "imagem": "https://caelum-online-public.s3.amazonaws.com/2628-js/django.png",
+        "alt": "Capa do livro de Django de A a Z",
+        "quantidade": 20,
+        "categoria": "back-end"
+    }
+]
