@@ -42,7 +42,7 @@
 
 .livros {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -129,7 +129,8 @@
 @media (max-width: 425px) {
   .banner {
     background-image: url(/assets/img/Banner-1-mobile.png);
-    background-size: 425px 100%;
+    height: 150px;
+    margin-bottom: -10%;
   }
 
   .livro {
