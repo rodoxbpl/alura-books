@@ -98,7 +98,16 @@
 
     .opcoes {
         display: flex;
+        align-items: center;
+        padding-top: 0.5em;
         gap: 10px;
+    }
+
+    .opcoes__item {
+        padding: 2em 1em;
+        text-transform: uppercase;
+        color: var(--preto);
+        cursor: pointer;
     }
     
     .container__botao1024 {
@@ -143,17 +152,6 @@
         font-weight: 700;
     }
 
-    .opcoes {
-        display: flex;
-        align-items: center;
-        padding-top: 0.5em;
-    }
-
-    .opcoes__item {
-        padding: 2em 1em;
-        text-transform: uppercase;
-        color: var(--preto);
-    }
 
 }
 
